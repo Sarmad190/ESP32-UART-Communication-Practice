@@ -1,0 +1,31 @@
+ESP32 UART Communication Example
+Sending “Hello Pakistan” over UART using ESP-IDF
+Overview
+
+This project demonstrates basic UART communication on ESP32.
+It initializes the UART with a baud rate of 115200 and sends "Hello Pakistan" every second.
+
+Features
+
+UART initialization with ESP-IDF
+
+Configurable baud rate (default: 115200)
+
+Periodic message transmission
+
+Pin Configuration
+
+UART Port: UART0 (default USB)
+
+TX: Default USB TX
+
+RX: Default USB RX
+
+Build and Flash
+idf.py build
+idf.py -p COMx flash monitor
+
+Expected Output (Serial Monitor)
+Hello Pakistan
+Hello Pakistan
+Hello Pakistan
